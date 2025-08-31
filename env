@@ -1,0 +1,23 @@
+# Server Configuration
+PORT=3001
+NODE_ENV=development
+
+# CORS Configuration
+CORS_ORIGIN=http://localhost:5173
+
+# File Upload Limits
+MAX_FILE_SIZE=10485760
+
+# Database Configuration (for future use)
+# DB_HOST=localhost
+# DB_PORT=5432
+# DB_NAME=text_editor
+# DB_USER=username
+# DB_PASSWORD=password
+
+
+## 6. storage/.gitkeep (Empty file untuk maintain folder structure)
+
+```gitkeep
+# This file maintains the storage directory structure in git
+# Actual files will be created by the server
